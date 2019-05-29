@@ -17,30 +17,3 @@ C:\Users\Telesforo Soto\Documents\Visual Studio 2015\Projects\PrySitrad\Views\bi
 C:\Users\Telesforo Soto\Documents\Visual Studio 2015\Projects\PrySitrad\Views\bin\Debug\Models.pdb
 C:\Users\Telesforo Soto\Documents\Visual Studio 2015\Projects\PrySitrad\Views\obj\Debug\Views.frmHome.resources
 C:\Users\Telesforo Soto\Documents\Visual Studio 2015\Projects\PrySitrad\Views\obj\Debug\Views.frmListProfesional.resources
-E:\Private\PrySitrad\Views\bin\Debug\Views.exe.config
-E:\Private\PrySitrad\Views\bin\Debug\Views.exe
-E:\Private\PrySitrad\Views\bin\Debug\Views.pdb
-E:\Private\PrySitrad\Views\bin\Debug\Controllers.dll
-E:\Private\PrySitrad\Views\bin\Debug\Entity.dll
-E:\Private\PrySitrad\Views\bin\Debug\Models.dll
-E:\Private\PrySitrad\Views\bin\Debug\Controllers.pdb
-E:\Private\PrySitrad\Views\bin\Debug\Entity.pdb
-E:\Private\PrySitrad\Views\bin\Debug\Models.pdb
-E:\Private\PrySitrad\Views\bin\Debug\Models.dll.config
-E:\Private\PrySitrad\Views\obj\Debug\Views.csprojAssemblyReference.cache
-E:\Private\PrySitrad\Views\obj\Debug\Views.Form3.resources
-E:\Private\PrySitrad\Views\obj\Debug\Views.frmHome.resources
-E:\Private\PrySitrad\Views\obj\Debug\Views.FrmListDocumentType.resources
-E:\Private\PrySitrad\Views\obj\Debug\Views.FrmListProfesion.resources
-E:\Private\PrySitrad\Views\obj\Debug\Views.frmMDIMain.resources
-E:\Private\PrySitrad\Views\obj\Debug\Views.FrmMenuPrinciapl.resources
-E:\Private\PrySitrad\Views\obj\Debug\Views.FrmModal.resources
-E:\Private\PrySitrad\Views\obj\Debug\Views.FrmModalProfesional.resources
-E:\Private\PrySitrad\Views\obj\Debug\Views.frmWindows.resources
-E:\Private\PrySitrad\Views\obj\Debug\Views.frmWindows2.resources
-E:\Private\PrySitrad\Views\obj\Debug\Views.Properties.Resources.resources
-E:\Private\PrySitrad\Views\obj\Debug\Views.csproj.GenerateResource.cache
-E:\Private\PrySitrad\Views\obj\Debug\Views.csproj.CoreCompileInputs.cache
-E:\Private\PrySitrad\Views\obj\Debug\Views.csproj.CopyComplete
-E:\Private\PrySitrad\Views\obj\Debug\Views.exe
-E:\Private\PrySitrad\Views\obj\Debug\Views.pdb
