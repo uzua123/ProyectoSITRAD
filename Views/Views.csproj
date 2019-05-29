@@ -70,6 +70,18 @@
     <Compile Include="frmHome.Designer.cs">
       <DependentUpon>frmHome.cs</DependentUpon>
     </Compile>
+    <Compile Include="FrmListDocumentType.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmListDocumentType.Designer.cs">
+      <DependentUpon>FrmListDocumentType.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmListProfesion.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmListProfesion.Designer.cs">
+      <DependentUpon>FrmListProfesion.cs</DependentUpon>
+    </Compile>
     <Compile Include="frmMDIMain.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -81,6 +93,18 @@
     </Compile>
     <Compile Include="FrmMenuPrinciapl.Designer.cs">
       <DependentUpon>FrmMenuPrinciapl.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmModal.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmModal.Designer.cs">
+      <DependentUpon>FrmModal.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmModalProfesional.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmModalProfesional.Designer.cs">
+      <DependentUpon>FrmModalProfesional.cs</DependentUpon>
     </Compile>
     <Compile Include="frmWindows.cs">
       <SubType>Form</SubType>
@@ -105,11 +129,23 @@
     <EmbeddedResource Include="frmHome.resx">
       <DependentUpon>frmHome.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="FrmListDocumentType.resx">
+      <DependentUpon>FrmListDocumentType.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmListProfesion.resx">
+      <DependentUpon>FrmListProfesion.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="frmMDIMain.resx">
       <DependentUpon>frmMDIMain.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="FrmMenuPrinciapl.resx">
       <DependentUpon>FrmMenuPrinciapl.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmModal.resx">
+      <DependentUpon>FrmModal.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmModalProfesional.resx">
+      <DependentUpon>FrmModalProfesional.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="frmWindows.resx">
       <DependentUpon>frmWindows.cs</DependentUpon>
