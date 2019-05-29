@@ -29,8 +29,7 @@ namespace Views
                 _Instancia = new FrmModalProfesional();
             }
             return _Instancia;
-            { 
-}
+            
         }
 
         string ValidationTextbox()
@@ -39,10 +38,11 @@ namespace Views
             {
                 return "Ingrese la profesion.";
             }
-            else if (this.txtAbreviatura.Text.Trim().Length==0)
-            {
-                return "Ingrese la Abreviatura.";
-            }else{
+            //else if (this.txtAbreviatura.Text.Trim().Length==0)
+            //{
+            //    return "Ingrese la Abreviatura.";
+            //}
+            else {
                 return "";
             }
         }
@@ -81,9 +81,9 @@ namespace Views
                 if (this.ValidationTextbox() == "")
                 {
                     RcdMultiTablaEntity objEnt = new RcdMultiTablaEntity();
-                    // obj.IdTipoDocumento =int.Parse( txtId.Text);
+                    objEnt.IdTabla = int.Parse(txtId.Text);
                     objEnt.Descripcion1 = txtProfesion.Text;
-                    objEnt.Descripcion2 = txtAbreviatura.Text;
+                    //objEnt.Descripcion2 = txtAbreviatura.Text;
 
                     try
                     {
@@ -105,14 +105,15 @@ namespace Views
                 }
 
             }
-            else if (lblTitle.Text == "Actualizar Tipo Documento")
+            else if (lblTitle.Text == "Actualizar Profesion")
             {
                 if (this.ValidationTextbox() == "")
                 {
                     RcdMultiTablaEntity objEnt = new RcdMultiTablaEntity();
                     objEnt.IdTabla = int.Parse(txtId.Text);
+                    objEnt.IdTablaDetalle = int.Parse(txtIdDetalle.Text);
                     objEnt.Descripcion1 = txtProfesion.Text;
-                    objEnt.Descripcion2 = txtAbreviatura.Text;
+                    //objEnt.Descripcion2 = txtAbreviatura.Text;
                    
                     try
                     {
@@ -131,7 +132,7 @@ namespace Views
                 }
                 else
                 {
-                    MessageError(ValidationTextbox());
+                    MessageError(ValidationTextbox ());
                 }
 
             }

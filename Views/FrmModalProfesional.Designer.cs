@@ -33,6 +33,7 @@
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.btnGuardar = new System.Windows.Forms.Button();
             this.groupBox1 = new System.Windows.Forms.GroupBox();
+            this.txtId = new System.Windows.Forms.TextBox();
             this.txtAbreviatura = new System.Windows.Forms.TextBox();
             this.label2 = new System.Windows.Forms.Label();
             this.txtProfesion = new System.Windows.Forms.TextBox();
@@ -40,7 +41,6 @@
             this.txtIdDetalle = new System.Windows.Forms.TextBox();
             this.label8 = new System.Windows.Forms.Label();
             this.panel1 = new System.Windows.Forms.Panel();
-            this.txtId = new System.Windows.Forms.TextBox();
             this.panel2.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.groupBox1.SuspendLayout();
@@ -111,6 +111,15 @@
             this.groupBox1.TabStop = false;
             this.groupBox1.Text = "Tipo Documento";
             // 
+            // txtId
+            // 
+            this.txtId.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtId.Location = new System.Drawing.Point(225, 44);
+            this.txtId.Name = "txtId";
+            this.txtId.Size = new System.Drawing.Size(87, 23);
+            this.txtId.TabIndex = 27;
+            this.txtId.Visible = false;
+            // 
             // txtAbreviatura
             // 
             this.txtAbreviatura.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
@@ -118,6 +127,7 @@
             this.txtAbreviatura.Name = "txtAbreviatura";
             this.txtAbreviatura.Size = new System.Drawing.Size(334, 23);
             this.txtAbreviatura.TabIndex = 26;
+            this.txtAbreviatura.Visible = false;
             // 
             // label2
             // 
@@ -128,6 +138,7 @@
             this.label2.Size = new System.Drawing.Size(49, 17);
             this.label2.TabIndex = 25;
             this.label2.Text = "Abrev.";
+            this.label2.Visible = false;
             // 
             // txtProfesion
             // 
@@ -174,14 +185,6 @@
             this.panel1.Name = "panel1";
             this.panel1.Size = new System.Drawing.Size(547, 50);
             this.panel1.TabIndex = 33;
-            // 
-            // txtId
-            // 
-            this.txtId.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtId.Location = new System.Drawing.Point(225, 44);
-            this.txtId.Name = "txtId";
-            this.txtId.Size = new System.Drawing.Size(87, 23);
-            this.txtId.TabIndex = 27;
             // 
             // FrmModalProfesional
             // 

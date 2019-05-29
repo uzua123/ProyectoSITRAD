@@ -99,6 +99,7 @@
             this.dgvDataList.RowsDefaultCellStyle = dataGridViewCellStyle5;
             this.dgvDataList.Size = new System.Drawing.Size(762, 379);
             this.dgvDataList.TabIndex = 14;
+            this.dgvDataList.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.DgvDataList_CellContentClick);
             // 
             // lblTotal
             // 
@@ -190,6 +191,7 @@
             this.Column9.HeaderText = "Abrev.";
             this.Column9.Name = "Column9";
             this.Column9.ReadOnly = true;
+            this.Column9.Visible = false;
             // 
             // Column5
             // 
