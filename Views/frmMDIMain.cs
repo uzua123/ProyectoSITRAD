@@ -168,6 +168,7 @@ namespace Views
             }
         }
 
+<<<<<<< HEAD
         private void btnIngresoDocumentos_Click(object sender, EventArgs e)
         {
         }
@@ -177,6 +178,9 @@ namespace Views
             ReleaseCapture();
             SendMessage(this.Handle, 0x112, 0xf012, 0);
         }
+=======
+      
+>>>>>>> origin/master
 
         private void btnNormal_Click_1(object sender, EventArgs e)
         {

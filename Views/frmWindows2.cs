@@ -17,6 +17,10 @@ namespace Views
         public frmWindows2()
         {
             InitializeComponent();
+<<<<<<< HEAD
+=======
+         
+>>>>>>> origin/master
         }
 
         

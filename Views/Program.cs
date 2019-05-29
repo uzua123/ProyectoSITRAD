@@ -16,7 +16,7 @@ namespace Views
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new frmMDIMain());
+            Application.Run(new FrmMenuPrinciapl    ());
         }
     }
 }

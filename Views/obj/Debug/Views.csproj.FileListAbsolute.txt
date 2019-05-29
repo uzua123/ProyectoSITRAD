@@ -45,3 +45,4 @@ C:\Users\Administrador\Desktop\ProyectoSITRAD\Views\bin\Debug\Entity.pdb
 C:\Users\Administrador\Desktop\ProyectoSITRAD\Views\bin\Debug\Models.pdb
 C:\Users\Administrador\Desktop\ProyectoSITRAD\Views\bin\Debug\Models.dll.config
 C:\Users\Administrador\Desktop\ProyectoSITRAD\Views\obj\Debug\Views.csproj.CopyComplete
+

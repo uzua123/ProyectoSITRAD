@@ -7,10 +7,15 @@ using System.Windows.Forms;
 using Models;
 
 using Entity;
+using Models;
 
 namespace Controllers
 {
+<<<<<<< HEAD
     public class MultiTablaController
+=======
+  public  class MultiTablaController
+>>>>>>> origin/master
     {
         MultiTablaModel objModel = new MultiTablaModel();
 
