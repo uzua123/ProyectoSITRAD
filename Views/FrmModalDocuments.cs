@@ -10,7 +10,7 @@ using System.Windows.Forms;
 
 namespace Views
 {
-    public partial class FrmModalDocuments : frmWindows
+    public partial class FrmModalDocuments : Form
     {
         public FrmModalDocuments()
         {
