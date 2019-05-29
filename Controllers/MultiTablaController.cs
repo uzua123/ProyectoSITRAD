@@ -4,12 +4,13 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using Models;
 
 using Entity;
 
 namespace Controllers
 {
-    class MultiTablaController
+    public class MultiTablaController
     {
         MultiTablaModel objModel = new MultiTablaModel();
 

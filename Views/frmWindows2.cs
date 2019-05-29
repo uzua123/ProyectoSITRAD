@@ -17,8 +17,6 @@ namespace Views
         public frmWindows2()
         {
             InitializeComponent();
-            prueba_con tabla = new prueba_con();
-            tabla.List(dataGridView1);
         }
 
         

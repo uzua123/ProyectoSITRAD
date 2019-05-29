@@ -17,3 +17,31 @@ C:\Users\Telesforo Soto\Documents\Visual Studio 2015\Projects\PrySitrad\Views\bi
 C:\Users\Telesforo Soto\Documents\Visual Studio 2015\Projects\PrySitrad\Views\bin\Debug\Models.pdb
 C:\Users\Telesforo Soto\Documents\Visual Studio 2015\Projects\PrySitrad\Views\obj\Debug\Views.frmHome.resources
 C:\Users\Telesforo Soto\Documents\Visual Studio 2015\Projects\PrySitrad\Views\obj\Debug\Views.frmListProfesional.resources
+C:\Users\Administrador\Desktop\ProyectoSITRAD\Views\obj\Debug\Views.csprojAssemblyReference.cache
+C:\Users\Administrador\Desktop\ProyectoSITRAD\Views\obj\Debug\Views.Form2.resources
+C:\Users\Administrador\Desktop\ProyectoSITRAD\Views\obj\Debug\Views.Form3.resources
+C:\Users\Administrador\Desktop\ProyectoSITRAD\Views\obj\Debug\Views.frmHome.resources
+C:\Users\Administrador\Desktop\ProyectoSITRAD\Views\obj\Debug\Views.FrmListDocumentType.resources
+C:\Users\Administrador\Desktop\ProyectoSITRAD\Views\obj\Debug\Views.FrmListProfesion.resources
+C:\Users\Administrador\Desktop\ProyectoSITRAD\Views\obj\Debug\Views.frmMDIMain.resources
+C:\Users\Administrador\Desktop\ProyectoSITRAD\Views\obj\Debug\Views.FrmMenuPrinciapl.resources
+C:\Users\Administrador\Desktop\ProyectoSITRAD\Views\obj\Debug\Views.FrmModal.resources
+C:\Users\Administrador\Desktop\ProyectoSITRAD\Views\obj\Debug\Views.FrmModalProfesional.resources
+C:\Users\Administrador\Desktop\ProyectoSITRAD\Views\obj\Debug\Views.frmWindows.resources
+C:\Users\Administrador\Desktop\ProyectoSITRAD\Views\obj\Debug\Views.frmWindows2.resources
+C:\Users\Administrador\Desktop\ProyectoSITRAD\Views\obj\Debug\Views.Properties.Resources.resources
+C:\Users\Administrador\Desktop\ProyectoSITRAD\Views\obj\Debug\Views.csproj.GenerateResource.cache
+C:\Users\Administrador\Desktop\ProyectoSITRAD\Views\obj\Debug\Views.csproj.CoreCompileInputs.cache
+C:\Users\Administrador\Desktop\ProyectoSITRAD\Views\obj\Debug\Views.exe
+C:\Users\Administrador\Desktop\ProyectoSITRAD\Views\obj\Debug\Views.pdb
+C:\Users\Administrador\Desktop\ProyectoSITRAD\Views\bin\Debug\Views.exe.config
+C:\Users\Administrador\Desktop\ProyectoSITRAD\Views\bin\Debug\Views.exe
+C:\Users\Administrador\Desktop\ProyectoSITRAD\Views\bin\Debug\Views.pdb
+C:\Users\Administrador\Desktop\ProyectoSITRAD\Views\bin\Debug\Controllers.dll
+C:\Users\Administrador\Desktop\ProyectoSITRAD\Views\bin\Debug\Entity.dll
+C:\Users\Administrador\Desktop\ProyectoSITRAD\Views\bin\Debug\Models.dll
+C:\Users\Administrador\Desktop\ProyectoSITRAD\Views\bin\Debug\Controllers.pdb
+C:\Users\Administrador\Desktop\ProyectoSITRAD\Views\bin\Debug\Entity.pdb
+C:\Users\Administrador\Desktop\ProyectoSITRAD\Views\bin\Debug\Models.pdb
+C:\Users\Administrador\Desktop\ProyectoSITRAD\Views\bin\Debug\Models.dll.config
+C:\Users\Administrador\Desktop\ProyectoSITRAD\Views\obj\Debug\Views.csproj.CopyComplete

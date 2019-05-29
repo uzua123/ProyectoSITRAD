@@ -4,3 +4,13 @@ C:\Users\Telesforo Soto\Documents\Visual Studio 2015\Projects\PrySitrad\Models\o
 C:\Users\Telesforo Soto\Documents\Visual Studio 2015\Projects\PrySitrad\Models\obj\Debug\Models.pdb
 C:\Users\Telesforo Soto\Documents\Visual Studio 2015\Projects\PrySitrad\Models\bin\Debug\Models.dll.config
 C:\Users\Telesforo Soto\Documents\Visual Studio 2015\Projects\PrySitrad\Models\obj\Debug\Models.csprojResolveAssemblyReference.cache
+C:\Users\Administrador\Desktop\ProyectoSITRAD\Models\bin\Debug\Models.dll.config
+C:\Users\Administrador\Desktop\ProyectoSITRAD\Models\bin\Debug\Models.dll
+C:\Users\Administrador\Desktop\ProyectoSITRAD\Models\bin\Debug\Models.pdb
+C:\Users\Administrador\Desktop\ProyectoSITRAD\Models\bin\Debug\Entity.dll
+C:\Users\Administrador\Desktop\ProyectoSITRAD\Models\bin\Debug\Entity.pdb
+C:\Users\Administrador\Desktop\ProyectoSITRAD\Models\obj\Debug\Models.csprojAssemblyReference.cache
+C:\Users\Administrador\Desktop\ProyectoSITRAD\Models\obj\Debug\Models.csproj.CoreCompileInputs.cache
+C:\Users\Administrador\Desktop\ProyectoSITRAD\Models\obj\Debug\Models.csproj.CopyComplete
+C:\Users\Administrador\Desktop\ProyectoSITRAD\Models\obj\Debug\Models.dll
+C:\Users\Administrador\Desktop\ProyectoSITRAD\Models\obj\Debug\Models.pdb

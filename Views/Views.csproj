@@ -197,6 +197,10 @@
       <Project>{0c4ed94c-9250-4883-8af7-1ecc6ef150f8}</Project>
       <Name>Controllers</Name>
     </ProjectReference>
+    <ProjectReference Include="..\Entity\Entity.csproj">
+      <Project>{0cddfd6f-8324-4960-bb84-d020b72f5f2c}</Project>
+      <Name>Entity</Name>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
