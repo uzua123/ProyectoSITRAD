@@ -216,6 +216,7 @@
             this.btnIngresoDocumentos.TabIndex = 12;
             this.btnIngresoDocumentos.Text = "Ingreso de documentos";
             this.btnIngresoDocumentos.UseVisualStyleBackColor = false;
+            this.btnIngresoDocumentos.Click += new System.EventHandler(this.BtnIngresoDocumentos_Click);
             // 
             // button3
             // 

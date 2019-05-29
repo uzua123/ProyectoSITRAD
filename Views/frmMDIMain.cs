@@ -174,6 +174,11 @@ namespace Views
             SendMessage(this.Handle, 0x112, 0xf012, 0);
         }
 
+        private void BtnIngresoDocumentos_Click(object sender, EventArgs e)
+        {
+            AbrirFormulario<FrmDocumentsList>();
+        }
+
         private void btnNormal_Click_1(object sender, EventArgs e)
         {
             //this.WindowState = FormWindowState.Normal;

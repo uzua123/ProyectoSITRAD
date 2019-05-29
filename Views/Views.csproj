@@ -58,6 +58,12 @@
     <Compile Include="Form3.Designer.cs">
       <DependentUpon>Form3.cs</DependentUpon>
     </Compile>
+    <Compile Include="FrmDocumentsList.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmDocumentsList.Designer.cs">
+      <DependentUpon>FrmDocumentsList.cs</DependentUpon>
+    </Compile>
     <Compile Include="frmHome.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -94,6 +100,12 @@
     <Compile Include="FrmModal.Designer.cs">
       <DependentUpon>FrmModal.cs</DependentUpon>
     </Compile>
+    <Compile Include="FrmModalDocuments.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmModalDocuments.Designer.cs">
+      <DependentUpon>FrmModalDocuments.cs</DependentUpon>
+    </Compile>
     <Compile Include="FrmModalProfesional.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -120,6 +132,9 @@
     <EmbeddedResource Include="Form3.resx">
       <DependentUpon>Form3.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="FrmDocumentsList.resx">
+      <DependentUpon>FrmDocumentsList.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="frmHome.resx">
       <DependentUpon>frmHome.cs</DependentUpon>
     </EmbeddedResource>
@@ -137,6 +152,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="FrmModal.resx">
       <DependentUpon>FrmModal.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmModalDocuments.resx">
+      <DependentUpon>FrmModalDocuments.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="FrmModalProfesional.resx">
       <DependentUpon>FrmModalProfesional.cs</DependentUpon>
