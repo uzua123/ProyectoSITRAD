@@ -1,0 +1,6 @@
+E:\Private\PrySitrad\Entity\bin\Debug\Entity.dll
+E:\Private\PrySitrad\Entity\bin\Debug\Entity.pdb
+E:\Private\PrySitrad\Entity\obj\Debug\Entity.csprojAssemblyReference.cache
+E:\Private\PrySitrad\Entity\obj\Debug\Entity.csproj.CoreCompileInputs.cache
+E:\Private\PrySitrad\Entity\obj\Debug\Entity.dll
+E:\Private\PrySitrad\Entity\obj\Debug\Entity.pdb

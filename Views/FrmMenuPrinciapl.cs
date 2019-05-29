@@ -8,6 +8,8 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
+using Controllers;
+
 namespace Views
 {
     public partial class FrmMenuPrinciapl : Form
@@ -107,6 +109,7 @@ namespace Views
         private void TipoDocumentoToolStripMenuItem_Click(object sender, EventArgs e)
         {
             
+
         }
     }
 }

@@ -151,10 +151,7 @@ namespace Views
             }
         }
 
-        private void btnIngresoDocumentos_Click(object sender, EventArgs e)
-        {
-            AbrirFormulario<frmListProfesional>();
-        }
+      
 
         private void btnNormal_Click_1(object sender, EventArgs e)
         {

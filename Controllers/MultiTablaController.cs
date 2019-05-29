@@ -6,10 +6,11 @@ using System.Threading.Tasks;
 using System.Windows.Forms;
 
 using Entity;
+using Models;
 
 namespace Controllers
 {
-    class MultiTablaController
+  public  class MultiTablaController
     {
         MultiTablaModel objModel = new MultiTablaModel();
 

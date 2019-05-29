@@ -1,12 +1,17 @@
-﻿using System;
+﻿using Entity;
+using System;
 using System.Collections.Generic;
+using System.Data;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using System.Windows.Forms;
+
+using Models;
 
 namespace Controllers
 {
-   public class TipoDocumentoModel
+   public class TipoDocumentoController
     {
         TipoDocumentoModel objTypeDocModel = new TipoDocumentoModel();
 
