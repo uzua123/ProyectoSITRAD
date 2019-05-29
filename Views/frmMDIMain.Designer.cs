@@ -78,7 +78,7 @@
             this.pMenu = new System.Windows.Forms.Panel();
             this.panel7 = new System.Windows.Forms.Panel();
             this.btnMenu = new System.Windows.Forms.Button();
-            this.panel1 = new System.Windows.Forms.Panel();
+            this.PHeaderTitle = new System.Windows.Forms.Panel();
             this.btnMinimize = new System.Windows.Forms.Button();
             this.btnExit = new System.Windows.Forms.Button();
             this.btnMaximize = new System.Windows.Forms.Button();
@@ -91,7 +91,7 @@
             this.pConsultas.SuspendLayout();
             this.pAdministrador.SuspendLayout();
             this.pMenu.SuspendLayout();
-            this.panel1.SuspendLayout();
+            this.PHeaderTitle.SuspendLayout();
             this.panel2.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -825,19 +825,19 @@
             this.btnMenu.UseVisualStyleBackColor = true;
             this.btnMenu.Click += new System.EventHandler(this.btnMenu_Click_1);
             // 
-            // panel1
+            // PHeaderTitle
             // 
-            this.panel1.BackColor = System.Drawing.SystemColors.Control;
-            this.panel1.Controls.Add(this.btnMinimize);
-            this.panel1.Controls.Add(this.btnExit);
-            this.panel1.Controls.Add(this.btnMaximize);
-            this.panel1.Controls.Add(this.btnNormal);
-            this.panel1.Dock = System.Windows.Forms.DockStyle.Top;
-            this.panel1.Location = new System.Drawing.Point(0, 0);
-            this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(1213, 32);
-            this.panel1.TabIndex = 5;
-            this.panel1.MouseDown += new System.Windows.Forms.MouseEventHandler(this.Panel1_MouseDown);
+            this.PHeaderTitle.BackColor = System.Drawing.SystemColors.Control;
+            this.PHeaderTitle.Controls.Add(this.btnMinimize);
+            this.PHeaderTitle.Controls.Add(this.btnExit);
+            this.PHeaderTitle.Controls.Add(this.btnMaximize);
+            this.PHeaderTitle.Controls.Add(this.btnNormal);
+            this.PHeaderTitle.Dock = System.Windows.Forms.DockStyle.Top;
+            this.PHeaderTitle.Location = new System.Drawing.Point(0, 0);
+            this.PHeaderTitle.Name = "PHeaderTitle";
+            this.PHeaderTitle.Size = new System.Drawing.Size(1213, 32);
+            this.PHeaderTitle.TabIndex = 5;
+            this.PHeaderTitle.MouseDown += new System.Windows.Forms.MouseEventHandler(this.PHeaderTitle_MouseDown);
             // 
             // btnMinimize
             // 
@@ -915,7 +915,7 @@
             this.Controls.Add(this.sectionMain);
             this.Controls.Add(this.panel2);
             this.Controls.Add(this.pMenu);
-            this.Controls.Add(this.panel1);
+            this.Controls.Add(this.PHeaderTitle);
             this.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
@@ -929,7 +929,7 @@
             this.pConsultas.ResumeLayout(false);
             this.pAdministrador.ResumeLayout(false);
             this.pMenu.ResumeLayout(false);
-            this.panel1.ResumeLayout(false);
+            this.PHeaderTitle.ResumeLayout(false);
             this.panel2.ResumeLayout(false);
             this.ResumeLayout(false);
 
@@ -944,7 +944,7 @@
         private System.Windows.Forms.Button btnTramiDoc;
         private System.Windows.Forms.Button btnOpcion1;
         private System.Windows.Forms.Button btnMenu;
-        private System.Windows.Forms.Panel panel1;
+        private System.Windows.Forms.Panel PHeaderTitle;
         private System.Windows.Forms.Button btnMinimize;
         private System.Windows.Forms.Button btnExit;
         private System.Windows.Forms.Button btnMaximize;

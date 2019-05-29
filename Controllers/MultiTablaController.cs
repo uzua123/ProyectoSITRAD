@@ -11,11 +11,7 @@ using Models;
 
 namespace Controllers
 {
-<<<<<<< HEAD
-    public class MultiTablaController
-=======
   public  class MultiTablaController
->>>>>>> origin/master
     {
         MultiTablaModel objModel = new MultiTablaModel();
 

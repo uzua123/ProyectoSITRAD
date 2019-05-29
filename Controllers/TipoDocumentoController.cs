@@ -6,11 +6,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
-<<<<<<< HEAD:Controllers/TipoDocumentoController.cs
-using Entity;
-=======
 
->>>>>>> origin/master:Controllers/TipoDocumentoController.cs
 using Models;
 
 namespace Controllers
