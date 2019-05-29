@@ -19,8 +19,8 @@ namespace Views
 
         private void BtnNuevo_Click(object sender, EventArgs e)
         {
-            FrmModalDocuments doc = new FrmModalDocuments();
-            doc.ShowDialog();
+            //FrmModalDocuments doc = new FrmModalDocuments();
+            //doc.ShowDialog();
         }
     }
 }

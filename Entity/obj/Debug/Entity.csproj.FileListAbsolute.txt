@@ -10,3 +10,8 @@ D:\SISTEMA - MUNI\Private\PrySitrad\Entity\obj\Debug\Entity.pdb
 D:\SISTEMA - MUNI\Private\PrySitrad\Entity\bin\Debug\Entity.dll
 D:\SISTEMA - MUNI\Private\PrySitrad\Entity\bin\Debug\Entity.pdb
 D:\SISTEMA - MUNI\Private\PrySitrad\Entity\obj\Debug\Entity.csprojAssemblyReference.cache
+C:\Users\Administrador\Desktop\ProyectoSITRAD\Entity\bin\Debug\Entity.dll
+C:\Users\Administrador\Desktop\ProyectoSITRAD\Entity\bin\Debug\Entity.pdb
+C:\Users\Administrador\Desktop\ProyectoSITRAD\Entity\obj\Debug\Entity.csproj.CoreCompileInputs.cache
+C:\Users\Administrador\Desktop\ProyectoSITRAD\Entity\obj\Debug\Entity.dll
+C:\Users\Administrador\Desktop\ProyectoSITRAD\Entity\obj\Debug\Entity.pdb
