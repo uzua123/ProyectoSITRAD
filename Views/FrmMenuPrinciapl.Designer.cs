@@ -70,6 +70,9 @@
             this.searchToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.toolStripSeparator8 = new System.Windows.Forms.ToolStripSeparator();
             this.aboutToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.mantenimientoToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.tipoDocumentoToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.profesionToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.toolStrip = new System.Windows.Forms.ToolStrip();
             this.newToolStripButton = new System.Windows.Forms.ToolStripButton();
             this.openToolStripButton = new System.Windows.Forms.ToolStripButton();
@@ -82,9 +85,6 @@
             this.statusStrip = new System.Windows.Forms.StatusStrip();
             this.toolStripStatusLabel = new System.Windows.Forms.ToolStripStatusLabel();
             this.toolTip = new System.Windows.Forms.ToolTip(this.components);
-            this.mantenimientoToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.tipoDocumentoToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.profesionToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.menuStrip.SuspendLayout();
             this.toolStrip.SuspendLayout();
             this.statusStrip.SuspendLayout();
@@ -431,6 +431,29 @@
             this.aboutToolStripMenuItem.Size = new System.Drawing.Size(176, 22);
             this.aboutToolStripMenuItem.Text = "&Acerca de... ...";
             // 
+            // mantenimientoToolStripMenuItem
+            // 
+            this.mantenimientoToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.tipoDocumentoToolStripMenuItem,
+            this.profesionToolStripMenuItem});
+            this.mantenimientoToolStripMenuItem.Name = "mantenimientoToolStripMenuItem";
+            this.mantenimientoToolStripMenuItem.Size = new System.Drawing.Size(101, 20);
+            this.mantenimientoToolStripMenuItem.Text = "Mantenimiento";
+            // 
+            // tipoDocumentoToolStripMenuItem
+            // 
+            this.tipoDocumentoToolStripMenuItem.Name = "tipoDocumentoToolStripMenuItem";
+            this.tipoDocumentoToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.tipoDocumentoToolStripMenuItem.Text = "Tipo Documento";
+            this.tipoDocumentoToolStripMenuItem.Click += new System.EventHandler(this.TipoDocumentoToolStripMenuItem_Click);
+            // 
+            // profesionToolStripMenuItem
+            // 
+            this.profesionToolStripMenuItem.Name = "profesionToolStripMenuItem";
+            this.profesionToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.profesionToolStripMenuItem.Text = "Profesion";
+            this.profesionToolStripMenuItem.Click += new System.EventHandler(this.ProfesionToolStripMenuItem_Click);
+            // 
             // toolStrip
             // 
             this.toolStrip.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
@@ -530,28 +553,6 @@
             this.toolStripStatusLabel.Size = new System.Drawing.Size(42, 17);
             this.toolStripStatusLabel.Text = "Estado";
             // 
-            // mantenimientoToolStripMenuItem
-            // 
-            this.mantenimientoToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
-            this.tipoDocumentoToolStripMenuItem,
-            this.profesionToolStripMenuItem});
-            this.mantenimientoToolStripMenuItem.Name = "mantenimientoToolStripMenuItem";
-            this.mantenimientoToolStripMenuItem.Size = new System.Drawing.Size(101, 20);
-            this.mantenimientoToolStripMenuItem.Text = "Mantenimiento";
-            // 
-            // tipoDocumentoToolStripMenuItem
-            // 
-            this.tipoDocumentoToolStripMenuItem.Name = "tipoDocumentoToolStripMenuItem";
-            this.tipoDocumentoToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
-            this.tipoDocumentoToolStripMenuItem.Text = "Tipo Documento";
-            this.tipoDocumentoToolStripMenuItem.Click += new System.EventHandler(this.TipoDocumentoToolStripMenuItem_Click);
-            // 
-            // profesionToolStripMenuItem
-            // 
-            this.profesionToolStripMenuItem.Name = "profesionToolStripMenuItem";
-            this.profesionToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
-            this.profesionToolStripMenuItem.Text = "Profesion";
-            // 
             // FrmMenuPrinciapl
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -563,7 +564,7 @@
             this.IsMdiContainer = true;
             this.MainMenuStrip = this.menuStrip;
             this.Name = "FrmMenuPrinciapl";
-            this.Text = "0";
+            this.Text = ":::Menu Principal";
             this.menuStrip.ResumeLayout(false);
             this.menuStrip.PerformLayout();
             this.toolStrip.ResumeLayout(false);

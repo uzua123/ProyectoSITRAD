@@ -211,6 +211,7 @@
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Name = "FrmModal";
             this.Text = "FrmModal";
+            this.Load += new System.EventHandler(this.FrmModal_Load);
             this.panel2.ResumeLayout(false);
             this.panel2.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();

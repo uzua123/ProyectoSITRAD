@@ -1,6 +1,6 @@
 ﻿namespace Views
 {
-    partial class FrmModalProfesional
+    partial class FrmModalCorrelativo
     {
         /// <summary>
         /// Required designer variable.
@@ -33,12 +33,9 @@
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.btnGuardar = new System.Windows.Forms.Button();
             this.groupBox1 = new System.Windows.Forms.GroupBox();
-            this.txtId = new System.Windows.Forms.TextBox();
-            this.txtAbreviatura = new System.Windows.Forms.TextBox();
-            this.label2 = new System.Windows.Forms.Label();
-            this.txtProfesion = new System.Windows.Forms.TextBox();
+            this.txtCorrelativo = new System.Windows.Forms.TextBox();
             this.label1 = new System.Windows.Forms.Label();
-            this.txtIdDetalle = new System.Windows.Forms.TextBox();
+            this.txtAño = new System.Windows.Forms.TextBox();
             this.label8 = new System.Windows.Forms.Label();
             this.panel1 = new System.Windows.Forms.Panel();
             this.panel2.SuspendLayout();
@@ -56,8 +53,8 @@
             this.panel2.Dock = System.Windows.Forms.DockStyle.Top;
             this.panel2.Location = new System.Drawing.Point(0, 0);
             this.panel2.Name = "panel2";
-            this.panel2.Size = new System.Drawing.Size(547, 50);
-            this.panel2.TabIndex = 32;
+            this.panel2.Size = new System.Drawing.Size(532, 50);
+            this.panel2.TabIndex = 35;
             // 
             // lblTitle
             // 
@@ -78,7 +75,6 @@
             this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.CenterImage;
             this.pictureBox1.TabIndex = 0;
             this.pictureBox1.TabStop = false;
-            this.pictureBox1.Click += new System.EventHandler(this.pictureBox1_Click);
             // 
             // btnGuardar
             // 
@@ -87,117 +83,84 @@
             this.btnGuardar.FlatAppearance.BorderSize = 0;
             this.btnGuardar.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnGuardar.ForeColor = System.Drawing.Color.LavenderBlush;
-            this.btnGuardar.Location = new System.Drawing.Point(439, 7);
+            this.btnGuardar.Location = new System.Drawing.Point(424, 7);
             this.btnGuardar.Name = "btnGuardar";
             this.btnGuardar.Size = new System.Drawing.Size(98, 31);
             this.btnGuardar.TabIndex = 2;
             this.btnGuardar.Text = "&Guardar";
             this.btnGuardar.UseVisualStyleBackColor = false;
-            this.btnGuardar.Click += new System.EventHandler(this.BtnGuardar_Click);
             // 
             // groupBox1
             // 
-            this.groupBox1.Controls.Add(this.txtId);
-            this.groupBox1.Controls.Add(this.txtAbreviatura);
-            this.groupBox1.Controls.Add(this.label2);
-            this.groupBox1.Controls.Add(this.txtProfesion);
+            this.groupBox1.Controls.Add(this.txtCorrelativo);
             this.groupBox1.Controls.Add(this.label1);
-            this.groupBox1.Controls.Add(this.txtIdDetalle);
+            this.groupBox1.Controls.Add(this.txtAño);
             this.groupBox1.Controls.Add(this.label8);
-            this.groupBox1.Location = new System.Drawing.Point(16, 69);
+            this.groupBox1.Location = new System.Drawing.Point(13, 69);
             this.groupBox1.Name = "groupBox1";
-            this.groupBox1.Size = new System.Drawing.Size(506, 208);
-            this.groupBox1.TabIndex = 34;
+            this.groupBox1.Size = new System.Drawing.Size(506, 149);
+            this.groupBox1.TabIndex = 37;
             this.groupBox1.TabStop = false;
             this.groupBox1.Text = "Tipo Documento";
             // 
-            // txtId
+            // txtCorrelativo
             // 
-            this.txtId.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtId.Location = new System.Drawing.Point(225, 44);
-            this.txtId.Name = "txtId";
-            this.txtId.Size = new System.Drawing.Size(87, 23);
-            this.txtId.TabIndex = 27;
-            this.txtId.Visible = false;
-            // 
-            // txtAbreviatura
-            // 
-            this.txtAbreviatura.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtAbreviatura.Location = new System.Drawing.Point(132, 120);
-            this.txtAbreviatura.Name = "txtAbreviatura";
-            this.txtAbreviatura.Size = new System.Drawing.Size(334, 23);
-            this.txtAbreviatura.TabIndex = 26;
-            this.txtAbreviatura.Visible = false;
-            // 
-            // label2
-            // 
-            this.label2.AutoSize = true;
-            this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label2.Location = new System.Drawing.Point(83, 123);
-            this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(49, 17);
-            this.label2.TabIndex = 25;
-            this.label2.Text = "Abrev.";
-            this.label2.Visible = false;
-            // 
-            // txtProfesion
-            // 
-            this.txtProfesion.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtProfesion.Location = new System.Drawing.Point(132, 82);
-            this.txtProfesion.Name = "txtProfesion";
-            this.txtProfesion.Size = new System.Drawing.Size(334, 23);
-            this.txtProfesion.TabIndex = 24;
+            this.txtCorrelativo.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtCorrelativo.Location = new System.Drawing.Point(132, 82);
+            this.txtCorrelativo.Name = "txtCorrelativo";
+            this.txtCorrelativo.Size = new System.Drawing.Size(334, 23);
+            this.txtCorrelativo.TabIndex = 24;
             // 
             // label1
             // 
             this.label1.AutoSize = true;
             this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.Location = new System.Drawing.Point(54, 85);
+            this.label1.Location = new System.Drawing.Point(46, 85);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(72, 17);
+            this.label1.Size = new System.Drawing.Size(80, 17);
             this.label1.TabIndex = 23;
-            this.label1.Text = "Profesion:";
+            this.label1.Text = "Correaltivo:";
             // 
-            // txtIdDetalle
+            // txtAño
             // 
-            this.txtIdDetalle.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtIdDetalle.Location = new System.Drawing.Point(132, 44);
-            this.txtIdDetalle.Name = "txtIdDetalle";
-            this.txtIdDetalle.Size = new System.Drawing.Size(87, 23);
-            this.txtIdDetalle.TabIndex = 22;
+            this.txtAño.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtAño.Location = new System.Drawing.Point(132, 44);
+            this.txtAño.Name = "txtAño";
+            this.txtAño.Size = new System.Drawing.Size(87, 23);
+            this.txtAño.TabIndex = 22;
             // 
             // label8
             // 
             this.label8.AutoSize = true;
             this.label8.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label8.Location = new System.Drawing.Point(70, 47);
+            this.label8.Location = new System.Drawing.Point(89, 47);
             this.label8.Name = "label8";
-            this.label8.Size = new System.Drawing.Size(56, 17);
+            this.label8.Size = new System.Drawing.Size(37, 17);
             this.label8.TabIndex = 21;
-            this.label8.Text = "Codigo:";
+            this.label8.Text = "Año:";
             // 
             // panel1
             // 
             this.panel1.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.panel1.Controls.Add(this.btnGuardar);
             this.panel1.Dock = System.Windows.Forms.DockStyle.Bottom;
-            this.panel1.Location = new System.Drawing.Point(0, 310);
+            this.panel1.Location = new System.Drawing.Point(0, 240);
             this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(547, 50);
-            this.panel1.TabIndex = 33;
+            this.panel1.Size = new System.Drawing.Size(532, 50);
+            this.panel1.TabIndex = 36;
             // 
-            // FrmModalProfesional
+            // FrmModalCorrelativo
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(547, 360);
+            this.ClientSize = new System.Drawing.Size(532, 290);
             this.Controls.Add(this.panel2);
             this.Controls.Add(this.groupBox1);
             this.Controls.Add(this.panel1);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
-            this.Name = "FrmModalProfesional";
-            this.Text = "FrmModalProfesional";
-            this.Load += new System.EventHandler(this.FrmModalProfesional_Load);
+            this.Name = "FrmModalCorrelativo";
+            this.Text = "FrmModalCorrelativo";
+            this.Load += new System.EventHandler(this.FrmModalCorrelativo_Load);
             this.panel2.ResumeLayout(false);
             this.panel2.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
@@ -215,13 +178,10 @@
         private System.Windows.Forms.PictureBox pictureBox1;
         public System.Windows.Forms.Button btnGuardar;
         private System.Windows.Forms.GroupBox groupBox1;
-        public System.Windows.Forms.TextBox txtAbreviatura;
-        private System.Windows.Forms.Label label2;
-        public System.Windows.Forms.TextBox txtProfesion;
+        public System.Windows.Forms.TextBox txtCorrelativo;
         private System.Windows.Forms.Label label1;
-        public System.Windows.Forms.TextBox txtIdDetalle;
+        public System.Windows.Forms.TextBox txtAño;
         private System.Windows.Forms.Label label8;
         private System.Windows.Forms.Panel panel1;
-        public System.Windows.Forms.TextBox txtId;
     }
 }

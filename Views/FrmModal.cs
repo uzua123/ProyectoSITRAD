@@ -137,5 +137,10 @@ namespace Views
 
             }
         }
+
+        private void FrmModal_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }

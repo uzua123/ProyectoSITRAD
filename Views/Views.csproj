@@ -12,6 +12,7 @@
     <TargetFrameworkVersion>v4.5.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <TargetFrameworkProfile />
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
     <PlatformTarget>AnyCPU</PlatformTarget>
@@ -46,12 +47,6 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Form2.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="Form2.Designer.cs">
-      <DependentUpon>Form2.cs</DependentUpon>
-    </Compile>
     <Compile Include="Form3.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -69,6 +64,12 @@
     </Compile>
     <Compile Include="frmHome.Designer.cs">
       <DependentUpon>frmHome.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmListCorrelative.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmListCorrelative.Designer.cs">
+      <DependentUpon>FrmListCorrelative.cs</DependentUpon>
     </Compile>
     <Compile Include="FrmListDocumentType.cs">
       <SubType>Form</SubType>
@@ -100,11 +101,13 @@
     <Compile Include="FrmModal.Designer.cs">
       <DependentUpon>FrmModal.cs</DependentUpon>
     </Compile>
-    <Compile Include="FrmModalDocuments.cs">
+
+    <Compile Include="FrmModalCorrelativo.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="FrmModalDocuments.Designer.cs">
-      <DependentUpon>FrmModalDocuments.cs</DependentUpon>
+    <Compile Include="FrmModalCorrelativo.Designer.cs">
+      <DependentUpon>FrmModalCorrelativo.cs</DependentUpon>
+
     </Compile>
     <Compile Include="FrmModalProfesional.cs">
       <SubType>Form</SubType>
@@ -126,9 +129,6 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <EmbeddedResource Include="Form2.resx">
-      <DependentUpon>Form2.cs</DependentUpon>
-    </EmbeddedResource>
     <EmbeddedResource Include="Form3.resx">
       <DependentUpon>Form3.cs</DependentUpon>
     </EmbeddedResource>
@@ -137,6 +137,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="frmHome.resx">
       <DependentUpon>frmHome.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmListCorrelative.resx">
+      <DependentUpon>FrmListCorrelative.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="FrmListDocumentType.resx">
       <DependentUpon>FrmListDocumentType.cs</DependentUpon>
@@ -153,8 +156,10 @@
     <EmbeddedResource Include="FrmModal.resx">
       <DependentUpon>FrmModal.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="FrmModalDocuments.resx">
-      <DependentUpon>FrmModalDocuments.cs</DependentUpon>
+
+    <EmbeddedResource Include="FrmModalCorrelativo.resx">
+      <DependentUpon>FrmModalCorrelativo.cs</DependentUpon>
+
     </EmbeddedResource>
     <EmbeddedResource Include="FrmModalProfesional.resx">
       <DependentUpon>FrmModalProfesional.cs</DependentUpon>
@@ -173,6 +178,7 @@
     <Compile Include="Properties\Resources.Designer.cs">
       <AutoGen>True</AutoGen>
       <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
     </Compile>
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>

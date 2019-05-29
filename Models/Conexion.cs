@@ -17,5 +17,7 @@ namespace Models
             return cn;
 
         }
+
+        public static string cone = "Data Source=DESKTOP-S3RV3R;Initial Catalog=Sitradoc;Integrated Security=True";
     }
 }

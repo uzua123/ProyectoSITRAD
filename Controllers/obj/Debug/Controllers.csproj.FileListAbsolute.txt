@@ -7,20 +7,6 @@ C:\Users\Telesforo Soto\Documents\Visual Studio 2015\Projects\PrySitrad\Controll
 C:\Users\Telesforo Soto\Documents\Visual Studio 2015\Projects\PrySitrad\Controllers\bin\Debug\Models.pdb
 C:\Users\Telesforo Soto\Documents\Visual Studio 2015\Projects\PrySitrad\Controllers\obj\Debug\Controllers.Properties.Resources.resources
 C:\Users\Telesforo Soto\Documents\Visual Studio 2015\Projects\PrySitrad\Controllers\obj\Debug\Controllers.csproj.GenerateResource.Cache
-E:\Private\PrySitrad\Controllers\obj\Debug\Controllers.csprojAssemblyReference.cache
-E:\Private\PrySitrad\Controllers\obj\Debug\Controllers.Properties.Resources.resources
-E:\Private\PrySitrad\Controllers\obj\Debug\Controllers.csproj.GenerateResource.cache
-E:\Private\PrySitrad\Controllers\obj\Debug\Controllers.csproj.CoreCompileInputs.cache
-E:\Private\PrySitrad\Controllers\obj\Debug\Controllers.dll
-E:\Private\PrySitrad\Controllers\obj\Debug\Controllers.pdb
-E:\Private\PrySitrad\Controllers\bin\Debug\Controllers.dll
-E:\Private\PrySitrad\Controllers\bin\Debug\Controllers.pdb
-E:\Private\PrySitrad\Controllers\bin\Debug\Entity.dll
-E:\Private\PrySitrad\Controllers\bin\Debug\Models.dll
-E:\Private\PrySitrad\Controllers\bin\Debug\Entity.pdb
-E:\Private\PrySitrad\Controllers\bin\Debug\Models.pdb
-E:\Private\PrySitrad\Controllers\bin\Debug\Models.dll.config
-E:\Private\PrySitrad\Controllers\obj\Debug\Controllers.csproj.CopyComplete
 C:\Users\Administrador\Desktop\ProyectoSITRAD\Controllers\obj\Debug\Controllers.csprojAssemblyReference.cache
 C:\Users\Administrador\Desktop\ProyectoSITRAD\Controllers\obj\Debug\Controllers.Properties.Resources.resources
 C:\Users\Administrador\Desktop\ProyectoSITRAD\Controllers\obj\Debug\Controllers.csproj.GenerateResource.cache
@@ -35,3 +21,31 @@ C:\Users\Administrador\Desktop\ProyectoSITRAD\Controllers\bin\Debug\Entity.pdb
 C:\Users\Administrador\Desktop\ProyectoSITRAD\Controllers\bin\Debug\Models.pdb
 C:\Users\Administrador\Desktop\ProyectoSITRAD\Controllers\bin\Debug\Models.dll.config
 C:\Users\Administrador\Desktop\ProyectoSITRAD\Controllers\obj\Debug\Controllers.csproj.CopyComplete
+E:\Private\PrySitrad\Controllers\bin\Debug\Controllers.dll
+E:\Private\PrySitrad\Controllers\bin\Debug\Controllers.pdb
+E:\Private\PrySitrad\Controllers\bin\Debug\Entity.dll
+E:\Private\PrySitrad\Controllers\bin\Debug\Models.dll
+E:\Private\PrySitrad\Controllers\bin\Debug\Entity.pdb
+E:\Private\PrySitrad\Controllers\bin\Debug\Models.pdb
+E:\Private\PrySitrad\Controllers\bin\Debug\Models.dll.config
+E:\Private\PrySitrad\Controllers\obj\Debug\Controllers.csprojAssemblyReference.cache
+E:\Private\PrySitrad\Controllers\obj\Debug\Controllers.Properties.Resources.resources
+E:\Private\PrySitrad\Controllers\obj\Debug\Controllers.csproj.GenerateResource.cache
+E:\Private\PrySitrad\Controllers\obj\Debug\Controllers.csproj.CoreCompileInputs.cache
+E:\Private\PrySitrad\Controllers\obj\Debug\Controllers.csproj.CopyComplete
+E:\Private\PrySitrad\Controllers\obj\Debug\Controllers.dll
+E:\Private\PrySitrad\Controllers\obj\Debug\Controllers.pdb
+D:\SISTEMA - MUNI\Private\PrySitrad\Controllers\obj\Debug\Controllers.Properties.Resources.resources
+D:\SISTEMA - MUNI\Private\PrySitrad\Controllers\obj\Debug\Controllers.csproj.GenerateResource.cache
+D:\SISTEMA - MUNI\Private\PrySitrad\Controllers\obj\Debug\Controllers.csproj.CoreCompileInputs.cache
+D:\SISTEMA - MUNI\Private\PrySitrad\Controllers\bin\Debug\Controllers.dll
+D:\SISTEMA - MUNI\Private\PrySitrad\Controllers\bin\Debug\Controllers.pdb
+D:\SISTEMA - MUNI\Private\PrySitrad\Controllers\bin\Debug\Entity.dll
+D:\SISTEMA - MUNI\Private\PrySitrad\Controllers\bin\Debug\Models.dll
+D:\SISTEMA - MUNI\Private\PrySitrad\Controllers\bin\Debug\Entity.pdb
+D:\SISTEMA - MUNI\Private\PrySitrad\Controllers\bin\Debug\Models.pdb
+D:\SISTEMA - MUNI\Private\PrySitrad\Controllers\bin\Debug\Models.dll.config
+D:\SISTEMA - MUNI\Private\PrySitrad\Controllers\obj\Debug\Controllers.csprojAssemblyReference.cache
+D:\SISTEMA - MUNI\Private\PrySitrad\Controllers\obj\Debug\Controllers.csproj.CopyComplete
+D:\SISTEMA - MUNI\Private\PrySitrad\Controllers\obj\Debug\Controllers.dll
+D:\SISTEMA - MUNI\Private\PrySitrad\Controllers\obj\Debug\Controllers.pdb

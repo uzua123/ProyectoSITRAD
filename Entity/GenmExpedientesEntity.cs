@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Entity
 {
-    class GenmExpedientesEntity
+  public  class GenmExpedientesEntity
     {
         public int IdAnio { get; set; }
         public decimal Correlativo { get; set; }

@@ -17,6 +17,7 @@ C:\Users\Telesforo Soto\Documents\Visual Studio 2015\Projects\PrySitrad\Views\bi
 C:\Users\Telesforo Soto\Documents\Visual Studio 2015\Projects\PrySitrad\Views\bin\Debug\Models.pdb
 C:\Users\Telesforo Soto\Documents\Visual Studio 2015\Projects\PrySitrad\Views\obj\Debug\Views.frmHome.resources
 C:\Users\Telesforo Soto\Documents\Visual Studio 2015\Projects\PrySitrad\Views\obj\Debug\Views.frmListProfesional.resources
+
 C:\Users\Administrador\Desktop\ProyectoSITRAD\Views\obj\Debug\Views.csprojAssemblyReference.cache
 C:\Users\Administrador\Desktop\ProyectoSITRAD\Views\obj\Debug\Views.Form2.resources
 C:\Users\Administrador\Desktop\ProyectoSITRAD\Views\obj\Debug\Views.Form3.resources
@@ -47,3 +48,4 @@ C:\Users\Administrador\Desktop\ProyectoSITRAD\Views\bin\Debug\Models.dll.config
 C:\Users\Administrador\Desktop\ProyectoSITRAD\Views\obj\Debug\Views.csproj.CopyComplete
 C:\Users\Administrador\Desktop\ProyectoSITRAD\Views\obj\Debug\Views.FrmDocumentsList.resources
 C:\Users\Administrador\Desktop\ProyectoSITRAD\Views\obj\Debug\Views.FrmModalDocuments.resources
+

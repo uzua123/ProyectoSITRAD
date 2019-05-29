@@ -77,7 +77,7 @@ namespace Views
                 {
                     DialogResult r = MessageBox.Show("Esta seguro que desea eliminar el registro?\n\n\t*" + Convert.ToString(this.dgvDataList.CurrentRow.Cells[1].Value), "Sistema de Tramite Documentario",
                             MessageBoxButtons.OKCancel, MessageBoxIcon.Information);
-                    string rpta = "";
+                    
                     if (r == DialogResult.OK)
                     {
                         int tipo_id = int.Parse(dgvDataList.Rows[e.RowIndex].Cells[0].Value.ToString());
