@@ -16,6 +16,8 @@ namespace Views
 {
     public partial class FrmListProfesion : Form
     {
+        MultiTablaController objCon = new MultiTablaController();
+        RcdMultiTablaEntity objEnt = new RcdMultiTablaEntity();
         public FrmListProfesion()
         {
             InitializeComponent();
@@ -36,8 +38,11 @@ namespace Views
             DataGridView dgv;
             var objModal = new FrmModalProfesional();
             objModal.lblTitle.Text = "Agregar Nuevo Profesion";
-            
+            objModal.btnGuardar.Text = "Guardar Datos";
+            objEnt.IdTabla = 3;
             objModal.ShowDialog();
+            objCon.ViewListProfesional(dgvDataList,objEnt);
+
         }
     }
 }

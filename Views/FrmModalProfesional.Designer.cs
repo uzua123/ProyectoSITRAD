@@ -33,13 +33,14 @@
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.btnGuardar = new System.Windows.Forms.Button();
             this.groupBox1 = new System.Windows.Forms.GroupBox();
-            this.txtSigla = new System.Windows.Forms.TextBox();
+            this.txtAbreviatura = new System.Windows.Forms.TextBox();
             this.label2 = new System.Windows.Forms.Label();
-            this.txtDescription = new System.Windows.Forms.TextBox();
+            this.txtProfesion = new System.Windows.Forms.TextBox();
             this.label1 = new System.Windows.Forms.Label();
-            this.txtId = new System.Windows.Forms.TextBox();
+            this.txtIdDetalle = new System.Windows.Forms.TextBox();
             this.label8 = new System.Windows.Forms.Label();
             this.panel1 = new System.Windows.Forms.Panel();
+            this.txtId = new System.Windows.Forms.TextBox();
             this.panel2.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.groupBox1.SuspendLayout();
@@ -92,14 +93,16 @@
             this.btnGuardar.TabIndex = 2;
             this.btnGuardar.Text = "&Guardar";
             this.btnGuardar.UseVisualStyleBackColor = false;
+            this.btnGuardar.Click += new System.EventHandler(this.BtnGuardar_Click);
             // 
             // groupBox1
             // 
-            this.groupBox1.Controls.Add(this.txtSigla);
-            this.groupBox1.Controls.Add(this.label2);
-            this.groupBox1.Controls.Add(this.txtDescription);
-            this.groupBox1.Controls.Add(this.label1);
             this.groupBox1.Controls.Add(this.txtId);
+            this.groupBox1.Controls.Add(this.txtAbreviatura);
+            this.groupBox1.Controls.Add(this.label2);
+            this.groupBox1.Controls.Add(this.txtProfesion);
+            this.groupBox1.Controls.Add(this.label1);
+            this.groupBox1.Controls.Add(this.txtIdDetalle);
             this.groupBox1.Controls.Add(this.label8);
             this.groupBox1.Location = new System.Drawing.Point(16, 69);
             this.groupBox1.Name = "groupBox1";
@@ -108,13 +111,13 @@
             this.groupBox1.TabStop = false;
             this.groupBox1.Text = "Tipo Documento";
             // 
-            // txtSigla
+            // txtAbreviatura
             // 
-            this.txtSigla.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtSigla.Location = new System.Drawing.Point(132, 120);
-            this.txtSigla.Name = "txtSigla";
-            this.txtSigla.Size = new System.Drawing.Size(334, 23);
-            this.txtSigla.TabIndex = 26;
+            this.txtAbreviatura.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtAbreviatura.Location = new System.Drawing.Point(132, 120);
+            this.txtAbreviatura.Name = "txtAbreviatura";
+            this.txtAbreviatura.Size = new System.Drawing.Size(334, 23);
+            this.txtAbreviatura.TabIndex = 26;
             // 
             // label2
             // 
@@ -126,13 +129,13 @@
             this.label2.TabIndex = 25;
             this.label2.Text = "Abrev.";
             // 
-            // txtDescription
+            // txtProfesion
             // 
-            this.txtDescription.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtDescription.Location = new System.Drawing.Point(132, 82);
-            this.txtDescription.Name = "txtDescription";
-            this.txtDescription.Size = new System.Drawing.Size(334, 23);
-            this.txtDescription.TabIndex = 24;
+            this.txtProfesion.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtProfesion.Location = new System.Drawing.Point(132, 82);
+            this.txtProfesion.Name = "txtProfesion";
+            this.txtProfesion.Size = new System.Drawing.Size(334, 23);
+            this.txtProfesion.TabIndex = 24;
             // 
             // label1
             // 
@@ -144,13 +147,13 @@
             this.label1.TabIndex = 23;
             this.label1.Text = "Profesion:";
             // 
-            // txtId
+            // txtIdDetalle
             // 
-            this.txtId.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtId.Location = new System.Drawing.Point(132, 44);
-            this.txtId.Name = "txtId";
-            this.txtId.Size = new System.Drawing.Size(87, 23);
-            this.txtId.TabIndex = 22;
+            this.txtIdDetalle.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtIdDetalle.Location = new System.Drawing.Point(132, 44);
+            this.txtIdDetalle.Name = "txtIdDetalle";
+            this.txtIdDetalle.Size = new System.Drawing.Size(87, 23);
+            this.txtIdDetalle.TabIndex = 22;
             // 
             // label8
             // 
@@ -172,6 +175,14 @@
             this.panel1.Size = new System.Drawing.Size(547, 50);
             this.panel1.TabIndex = 33;
             // 
+            // txtId
+            // 
+            this.txtId.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtId.Location = new System.Drawing.Point(225, 44);
+            this.txtId.Name = "txtId";
+            this.txtId.Size = new System.Drawing.Size(87, 23);
+            this.txtId.TabIndex = 27;
+            // 
             // FrmModalProfesional
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -183,6 +194,7 @@
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Name = "FrmModalProfesional";
             this.Text = "FrmModalProfesional";
+            this.Load += new System.EventHandler(this.FrmModalProfesional_Load);
             this.panel2.ResumeLayout(false);
             this.panel2.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
@@ -200,12 +212,13 @@
         private System.Windows.Forms.PictureBox pictureBox1;
         public System.Windows.Forms.Button btnGuardar;
         private System.Windows.Forms.GroupBox groupBox1;
-        public System.Windows.Forms.TextBox txtSigla;
+        public System.Windows.Forms.TextBox txtAbreviatura;
         private System.Windows.Forms.Label label2;
-        public System.Windows.Forms.TextBox txtDescription;
+        public System.Windows.Forms.TextBox txtProfesion;
         private System.Windows.Forms.Label label1;
-        public System.Windows.Forms.TextBox txtId;
+        public System.Windows.Forms.TextBox txtIdDetalle;
         private System.Windows.Forms.Label label8;
         private System.Windows.Forms.Panel panel1;
+        public System.Windows.Forms.TextBox txtId;
     }
 }

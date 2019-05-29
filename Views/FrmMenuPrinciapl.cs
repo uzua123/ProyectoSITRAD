@@ -111,5 +111,12 @@ namespace Views
             
 
         }
+
+        private void ProfesionToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            var prof = new FrmListProfesion();
+            //this.MdiParent = prof;
+            prof.Show();
+        }
     }
 }

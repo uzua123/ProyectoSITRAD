@@ -18,6 +18,9 @@ namespace Models
 
         public DataTable View()
         {
+            //    SqlConnection cn = new SqlConnection();
+            //    cn.ConnectionString = Conexion.cone;
+            //    cn.Open();
             con = objCon.Conectar();
             con.Open();
 
