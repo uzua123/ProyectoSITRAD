@@ -26,7 +26,8 @@ namespace Models.Properties {
         [global::System.Configuration.ApplicationScopedSettingAttribute()]
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
         [global::System.Configuration.SpecialSettingAttribute(global::System.Configuration.SpecialSetting.ConnectionString)]
-        [global::System.Configuration.DefaultSettingValueAttribute("Data Source=(local);Initial Catalog=Sitradoc;Integrated Security=True")]
+        [global::System.Configuration.DefaultSettingValueAttribute("Data Source=DESKTOP-S3RV3R;Initial Catalog=Sitradoc;User ID=sa;Password=Server431" +
+            "6")]
         public string cn {
             get {
                 return ((string)(this["cn"]));
